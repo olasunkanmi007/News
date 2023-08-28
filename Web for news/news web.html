@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="sticky">
+        <div class="logo">Logo</div>
+        <nav class="navigation">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li class="dropdown">
+                    <a href="#">Categories</a>
+                    <div class="dropdown-content">
+                        <a href="#">Politics</a>
+                        <a href="#">Business</a>
+                        <a href="#">Technology</a>
+                    </div>
+                </li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Entertainment</a></li>
+            </ul>
+        </nav>
+        <div class="location">New York</div>
+        <div class="notification-icon"><span>🔔</span></div>
+        <div class="login-logout">
+            <button class="login">Login</button>
+            <button class="logout">Logout</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="language-switcher">
+            <select>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </header>
+    <!-- After the header section -->
+<main>
+    <section class="slider-section">
+        <div class="slider">
+            <div class="slide"><img src="slide1.jpg" alt="Slide 1"></div>
+            <div class="slide"><img src="slide2.jpg" alt="Slide 2"></div>
+            <div class="slide"><img src="slide3.jpg" alt="Slide 3"></div>
+        </div>
+        <div class="slider-controls">
+            <button class="prev-slide">&#8249;</button>
+            <button class="next-slide">&#8250;</button>
+        </div>
+    </section>
+
+    <section class="quiz-section">
+        <h2>Current News Quiz</h2>
+        <p>What is the main topic of today's news?</p>
+        <form class="quiz-form">
+            <label>
+                <input type="checkbox" name="option" value="politics"> Politics
+            </label>
+            <label>
+                <input type="checkbox" name="option" value="technology"> Technology
+            </label>
+            <label>
+                <input type="checkbox" name="option" value="sports"> Sports
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="video-section">
+        <h2>Trending Videos</h2>
+        <div class="video">
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+    </section>
+
+    <section class="forms-section">
+        <h2>Contact Us</h2>
+        <form class="contact-form">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <section class="image-trending-section">
+        <h2>Image Trending</h2>
+        <div class="image-slider">
+            <div class="image-slide"><img src="image1.jpg" alt="Image 1"></div>
+            <div class="image-slide"><img src="image2.jpg" alt="Image 2"></div>
+            <div class="image-slide"><img src="image3.jpg" alt="Image 3"></div>
+        </div>
+    </section>
+</main>
+
+<!-- After the main section -->
+<!-- After the body section -->
+<section class="article-section">
+    <article class="article">
+        <header class="article-header">
+            <img src="article-image.jpg" alt="Article Image">
+            <h1>Breaking News: Major Event Unfolds</h1>
+            <p class="subheading">A deep dive into the recent events and their implications</p>
+        </header>
+        <div class="article-content">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam dictum justo in mi tristique, id dictum nulla varius.</p>
+            <p>Vestibulum convallis odio ac efficitur. Fusce ac mi nec mauris malesuada rhoncus. Integer luctus erat a lectus varius, nec feugiat leo efficitur.</p>
+            <blockquote class="quote-block">"Suspendisse in libero eu odio vehicula facilisis. Suspendisse potenti."</blockquote>
+            <p>Phasellus ultricies libero in dui mattis, nec ullamcorper odio interdum. Nam eu volutpat velit, a malesuada lectus.</p>
+        </div>
+    </article>
+</section>
+
+<!-- After the article section -->
+<footer class="footer">
+    <div class="footer-content">
+        <div class="footer-column">
+            <p>&copy; 2023 News Website. All rights reserved.</p>
+            <button class="subscribe-button">Subscribe to Updates</button>
+            <input type="email" placeholder="Enter your email">
+        </div>
+        <div class="footer-column">
+            <div class="social-icons">
+                <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+            </div>
+        </div>
+        <div class="footer-column">
+            <ul class="quick-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Categories</a></li>
+                <li><a href="#">Sports</a></li>
+                <li><a href="#">Entertainment</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="footer-column">
+            <a href="#" class="back-to-top">Back to Top</a>
+            <div class="chat-widget">
+                <span>Need Help?</span>
+                <a href="#">Chat Now</a>
+            </div>
+        </div>
+    </div>
+</footer>
+
+
+    <!-- Rest of the page content -->
+    
+</body>
+</html>

@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>News Website</title>
+</head>
+<body>
+  <header class="sticky-header">
+    <div class="header-container">
+      <div class="logo">
+        <img src="logo.png" alt="Logo">
+      </div>
+      <nav class="navigation">
+        <ul class="menu">
+          <li><a href="#">Home</a></li>
+          <li class="dropdown">
+            <a href="#">Categories <span class="dropdown-arrow">&#9662;</span></a>
+            <ul class="sub-menu">
+              <li><a href="#">Politics</a></li>
+              <li><a href="#">Business</a></li>
+              <li><a href="#">Technology</a></li>
+              <!-- Add more categories here -->
+            </ul>
+          </li>
+          <!-- Add more menu items here -->
+        </ul>
+      </nav>
+      <div class="location">
+        <p>Your Location</p>
+      </div>
+      <div class="notification">
+        <a href="#"><img src="notification-icon.png" alt="Notifications"></a>
+      </div>
+      <div class="user-actions">
+        <a href="#">Login</a>
+        <a href="#">Logout</a>
+      </div>
+      <div class="search-bar">
+        <input type="text" placeholder="Search...">
+      </div>
+      <div class="language-switcher">
+        <select>
+          <option value="en">English</option>
+          <option value="fr">Français</option>
+          <!-- Add more language options here -->
+        </select>
+      </div>
+    </div>
+  </header>
+
+  <!-- After the closing </header> tag -->
+
+<section class="image-slider">
+  <div class="slider-container">
+    <div class="slider">
+      <img src="slide1.jpg" alt="Slider Image 1">
+      <img src="slide2.jpg" alt="Slider Image 2">
+      <img src="slide3.jpg" alt="Slider Image 3">
+      <!-- Add more slider images here -->
+    </div>
+    <div class="slider-controls">
+      <span class="prev-slide">&#8249;</span>
+      <span class="next-slide">&#8250;</span>
+    </div>
+  </div>
+</section>
+
+<section class="quiz">
+  <div class="quiz-container">
+    <h2>Quiz: Current News Topic</h2>
+    <p>Question: What is the capital of France?</p>
+    <label><input type="checkbox"> Option A</label>
+    <label><input type="checkbox"> Option B</label>
+    <label><input type="checkbox"> Option C</label>
+    <label><input type="checkbox"> Option D</label>
+    <button class="submit-quiz">Submit</button>
+  </div>
+</section>
+
+<section class="video-section">
+  <h2>Trending Videos</h2>
+  <div class="video-container">
+    <video controls>
+      <source src="video1.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <video controls>
+      <source src="video2.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+    <!-- Add more videos here -->
+  </div>
+</section>
+
+<section class="forms">
+  <h2>Contact Us</h2>
+  <form class="contact-form">
+    <input type="text" placeholder="Name">
+    <input type="email" placeholder="Email">
+    <textarea placeholder="Message"></textarea>
+    <button class="submit-form">Submit</button>
+  </form>
+</section>
+
+<section class="trending-images">
+  <h2>Trending Images</h2>
+  <div class="image-scroll-container">
+    <div class="image-scroll">
+      <img src="trending1.jpg" alt="Trending Image 1">
+      <img src="trending2.jpg" alt="Trending Image 2">
+      <img src="trending3.jpg" alt="Trending Image 3">
+      <!-- Add more trending images here -->
+    </div>
+  </div>
+</section>
+
+
+<section class="article">
+  <div class="article-container">
+    <img src="article-image.jpg" alt="Article Image">
+    <h1 class="main-heading">Exploring the Wonders of the Ocean</h1>
+    <h2 class="subheading">Diving into the Depths of Marine Life</h2>
+    <p class="article-text">
+      The ocean, covering more than 70% of the Earth's surface, is a realm of fascinating mysteries and captivating beauty. 
+      Its vastness holds a treasure trove of life forms and ecosystems that continue to astonish scientists and explorers alike.
+      From the vibrant coral reefs teeming with colorful marine life to the mysterious depths inhabited by rare and elusive creatures, 
+      the ocean remains a source of inspiration and wonder.
+    </p>
+    <blockquote class="quote-block">
+      "The sea, once it casts its spell, holds one in its net of wonder forever." <cite>- Jacques Cousteau</cite>
+    </blockquote>
+    <p class="article-text">
+      Our journey begins by delving into the remarkable ecosystems that thrive within the ocean's diverse habitats. 
+      Coral reefs, often referred to as the rainforests of the sea, are bustling cities of marine biodiversity. 
+      These underwater metropolises provide a habitat for countless species, from tiny clownfish to majestic sea turtles.
+      As we venture deeper, the darkness of the abyss unveils its secrets. Bioluminescent creatures illuminate the blackness,
+      creating an otherworldly spectacle that has captivated both scientists and storytellers.
+    </p>
+    <!-- More article content here -->
+  </div>
+</section>
+ <!-- Footer section -->
+ <footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-section">
+      <p>&copy; 2023 Your News Website. All rights reserved.</p>
+    </div>
+    <div class="footer-section">
+      <h2>Subscribe to Our Newsletter</h2>
+      <form class="subscribe-form">
+        <input type="email" placeholder="Enter your email">
+        <button class="subscribe-button">Subscribe</button>
+      </form>
+    </div>
+    <div class="footer-section">
+      <h2>Follow Us</h2>
+      <div class="social-icons">
+        <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+        <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+        <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+      </div>
+    </div>
+    <div class="footer-section">
+      <h2>Quick Links</h2>
+      <ul class="quick-links">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Categories</a></li>
+        <li><a href="#">About Us</a></li>
+        <li><a href="#">Contact Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="back-to-top">
+    <a href="#top">Back to Top</a>
+  </div>
+  <div class="live-chat">
+    <a href="#">Live Chat</a>
+  </div>
+</footer>
+
+  <!-- Rest of the content -->
+  
+</body>
+
+</html>

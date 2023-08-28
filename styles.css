@@ -1,0 +1,336 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.sticky-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+.logo img {
+  max-width: 100px;
+}
+
+.navigation .menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  align-items: center;
+}
+
+.navigation .menu li {
+  margin-right: 20px;
+}
+
+.navigation .menu li:last-child {
+  margin-right: 0;
+}
+
+.navigation .menu a {
+  text-decoration: none;
+  color: #333;
+}
+
+.dropdown-arrow {
+  margin-left: 5px;
+}
+
+.sub-menu {
+  display: none;
+  position: absolute;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.dropdown:hover .sub-menu {
+  display: block;
+}
+
+.location p {
+  margin: 0;
+  font-size: 14px;
+  color: #666;
+}
+
+.notification img {
+  width: 20px;
+}
+
+.user-actions a {
+  text-decoration: none;
+  margin-right: 10px;
+  color: #333;
+}
+
+.search-bar input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 14px;
+}
+
+.language-switcher select {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+/* Additional styles for the body components */
+
+.image-slider {
+  padding: 20px;
+}
+
+.slider-container {
+  position: relative;
+}
+
+.slider {
+  display: flex;
+  overflow: hidden;
+}
+
+.slider img {
+  max-width: 100%;
+  height: auto;
+}
+
+.slider-controls {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.prev-slide,
+.next-slide {
+  font-size: 24px;
+  cursor: pointer;
+  margin: 0 10px;
+}
+
+.quiz-container {
+  padding: 20px;
+  background-color: #f9f9f9;
+}
+
+.quiz p {
+  margin-top: 10px;
+}
+
+.quiz label {
+  display: block;
+  margin: 10px 0;
+}
+
+.submit-quiz {
+  display: block;
+  margin: 20px auto;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.video-section {
+  padding: 20px;
+}
+
+.video-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.video-container video {
+  max-width: 100%;
+}
+
+.forms {
+  padding: 20px;
+}
+
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.submit-form {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.trending-images {
+  padding: 20px;
+}
+
+.image-scroll-container {
+  overflow: hidden;
+}
+
+.image-scroll {
+  display: flex;
+  animation: scroll 20s linear infinite;
+}
+
+.image-scroll img {
+  max-width: 100%;
+  height: auto;
+  margin-right: 20px;
+}
+
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+/* Additional styles for the article section */
+
+.article {
+  padding: 20px;
+}
+
+.article-container {
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.article img {
+  max-width: 100%;
+  height: auto;
+}
+
+.main-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.subheading {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.article-text {
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+}
+
+.quote-block {
+  padding: 20px;
+  border-left: 3px solid #333;
+  background-color: #f9f9f9;
+}
+
+.quote-block cite {
+  display: block;
+  margin-top: 10px;
+  font-style: italic;
+}
+
+/* Additional styles for the footer section */
+
+.site-footer {
+  background-color: #333;
+  color: #fff;
+  padding: 20px 0;
+}
+
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.footer-section {
+  flex: 1;
+  padding: 20px;
+}
+
+.footer-section h2 {
+  font-size: 18px;
+  margin-bottom: 10px;
+}
+
+.subscribe-form input,
+.subscribe-form button {
+  padding: 10px;
+}
+
+.subscribe-button {
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.social-icons a {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.quick-links {
+  list-style: none;
+  padding: 0;
+}
+
+.quick-links li {
+  margin-bottom: 5px;
+}
+
+.quick-links a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.back-to-top,
+.live-chat {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.back-to-top a,
+.live-chat a {
+  color: #fff;
+  text-decoration: none;
+}
+
+
+/* Add more styles as needed */
