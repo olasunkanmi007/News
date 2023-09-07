@@ -1,0 +1,317 @@
+/* Reset some default styles for better accessibility */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Style the header */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+}
+
+/* Style the logo */
+.header-logo img {
+    width: 100px;
+    height: auto;
+}
+
+/* Style the navigation menu */
+.menu {
+    list-style: none;
+    display: flex;
+}
+
+.menu li {
+    margin-right: 20px;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style the notification icon */
+.notification-icon img {
+    width: 24px;
+    height: auto;
+}
+
+/* Style the sticky header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+}
+
+/* Style the login and logout buttons */
+#login-btn,
+#logout-btn {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    cursor: pointer;
+}
+
+/* Style the search bar */
+.search-bar input {
+    padding: 5px 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style the language switcher */
+.language-switcher select {
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+/* Style the fit-to-page slider */
+.slider {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+}
+
+/* Style slider navigation controls */
+.prev-slide,
+.next-slide {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 0;
+}
+
+/* Style the quiz section */
+.quiz {
+    text-align: center;
+}
+
+/* Style the quiz form */
+.quiz form {
+    display: inline-block;
+    text-align: left;
+}
+
+/* Style quiz checkboxes and labels */
+label {
+    display: block;
+    margin: 10px 0;
+}
+
+/* Style the video trending section */
+.video-trending {
+    text-align: center;
+}
+
+.video-trending video {
+    max-width: 100%;
+}
+
+/* Style the mobile-responsive forms */
+.forms {
+    text-align: center;
+}
+
+.forms form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.forms label,
+.forms input,
+.forms textarea {
+    display: block;
+    width: 100%;
+    margin: 10px 0;
+}
+
+/* Style the image trending section */
+.image-trending {
+    text-align: center;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.image-container img {
+    max-width: 100%;
+    height: auto;
+    display: inline-block;
+    margin-right: 10px;
+}
+/* Style the article section */
+article {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Style the article image */
+article img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+/* Style the main heading */
+article h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+/* Style the article info */
+.article-info {
+    font-size: 14px;
+    color: #777;
+    margin-bottom: 10px;
+}
+
+/* Style subheadings */
+article h2 {
+    font-size: 24px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+/* Style the main body text */
+article p {
+    font-size: 16px;
+    line-height: 1.5;
+    margin-bottom: 20px;
+}
+
+/* Style the quote block */
+blockquote {
+    border-left: 4px solid #0073e6;
+    margin: 20px 0;
+    padding-left: 20px;
+}
+
+blockquote p {
+    font-style: italic;
+    color: #555;
+}
+
+/* Style the citation in the quote block */
+blockquote cite {
+    font-style: normal;
+    color: #333;
+    font-weight: bold;
+}
+/* Style the footer section */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+/* Style the footer content */
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Style the left section of the footer */
+.footer-left {
+    flex: 1;
+    text-align: center;
+}
+
+/* Style the subscribe button and email input */
+#subscribe-btn {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+#email-input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+}
+
+/* Style the center section of the footer */
+.footer-center {
+    flex: 1;
+    text-align: center;
+}
+
+/* Style the social media icons */
+.social-icons a {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+/* Style the right section of the footer */
+.footer-right {
+    flex: 1;
+    text-align: center;
+}
+
+/* Style the quick links */
+.quick-links {
+    list-style: none;
+}
+
+.quick-links li {
+    margin: 5px 0;
+}
+
+.quick-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Style the Back to Top button */
+#back-to-top {
+    background-color: #0073e6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+/* Style the live chat or customer support widget */
+.live-chat {
+    text-align: center;
+    margin-top: 20px;
+}
+
+/* Add additional styles for your live chat widget here */
+

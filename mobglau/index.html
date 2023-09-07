@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glaucoma Charity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="logo">
+            <img src="logo.png" alt="Glaucoma Charity Logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                    <div class="dropdown">
+                        <ul>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Programs</a></li>
+                            <li><a href="#">Donate</a></li>
+                        </ul>
+                    </div>
+                </li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">News</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="location">
+            <p>Your Location: <span>City, Country</span></p>
+        </div>
+        <div class="notification">
+            <a href="#">
+                <img src="notification-icon.png" alt="Notification Icon">
+                <span class="notification-badge">3</span>
+            </a>
+        </div>
+        <div class="user">
+            <button class="login">Login</button>
+            <button class="logout">Logout</button>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="language-switcher">
+            <select>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </header>
+    <!-- Continuing from the previous HTML code -->
+<section class="image-slider">
+    <div class="slider">
+        <img src="slide1.jpg" alt="Slider Image 1">
+        <img src="slide2.jpg" alt="Slider Image 2">
+        <img src="slide3.jpg" alt="Slider Image 3">
+    </div>
+    <div class="slider-controls">
+        <button class="prev-slide">Previous</button>
+        <button class="next-slide">Next</button>
+    </div>
+</section>
+
+<section class="quiz">
+    <h2>Current News Quiz</h2>
+    <p>What is the main cause of Glaucoma?</p>
+    <form>
+        <label>
+            <input type="checkbox" name="answer" value="a"> A. Increased eye pressure
+        </label>
+        <label>
+            <input type="checkbox" name="answer" value="b"> B. Genetics
+        </label>
+        <label>
+            <input type="checkbox" name="answer" value="c"> C. Aging
+        </label>
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section class="video-section">
+    <h2>Trending Videos</h2>
+    <div class="video">
+        <video controls>
+            <source src="video1.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </div>
+</section>
+
+<section class="forms">
+    <h2>Contact Us</h2>
+    <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+
+        <button type="submit">Submit</button>
+    </form>
+</section>
+
+<section class="image-trending">
+    <h2>Featured Images</h2>
+    <div class="image-scroll">
+        <img src="image1.jpg" alt="Image 1">
+        <img src="image2.jpg" alt="Image 2">
+        <img src="image3.jpg" alt="Image 3">
+        <img src="image4.jpg" alt="Image 4">
+    </div>
+</section>
+<!-- Continuing from the previous HTML code -->
+<section class="article">
+    <img src="article-image.jpg" alt="Article Image">
+    <h1>Main Heading of the Article</h1>
+    <p class="subheading">Subheading 1</p>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum in purus nec turpis congue aliquet. Nulla facilisi. Nullam auctor ex vel ante ultricies, sed suscipit elit volutpat. Nam lacinia, ante non hendrerit tincidunt, justo nisi suscipit tortor, non pellentesque est nunc nec orci. Cras eget dui non ipsum ullamcorper aliquet.</p>
+    
+    <p class="subheading">Subheading 2</p>
+    <p>Suspendisse sed mi eu purus tincidunt aliquet. Fusce varius erat quam, eget dapibus quam tristique non. Proin commodo neque a fermentum. Nulla a velit eu metus ultricies posuere. Pellentesque hendrerit nunc vitae vestibulum. Curabitur eget vestibulum sapien. Nam id enim sit amet tellus elementum vehicula.</p>
+    
+    <blockquote class="quote">
+        <p>"Glaucoma is a leading cause of irreversible blindness worldwide."</p>
+        <p class="quote-author">- Dr. John Smith</p>
+    </blockquote>
+    
+    <p class="subheading">Subheading 3</p>
+    <p>Etiam nec nulla id quam cursus bibendum. Phasellus sed libero at urna vulputate consectetur. Curabitur eu ex eu purus dapibus egestas. Fusce malesuada nulla ac bibendum. Nulla facilisi. Integer eu efficitur libero. In nec vehicula tellus.</p>
+</section>
+<!-- Continuing from the previous HTML code -->
+<footer class="site-footer">
+    <div class="footer-content">
+        <div class="copyright">
+            &copy; 2023 Glaucoma Charity
+        </div>
+        <div class="subscribe">
+            <input type="email" placeholder="Enter your email...">
+            <button>Subscribe</button>
+        </div>
+        <div class="social-icons">
+            <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <div class="quick-links">
+            <ul>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </div>
+        <div class="back-to-top">
+            <a href="#top">Back to Top</a>
+        </div>
+    </div>
+    <div class="chat-widget">
+        <a href="#" class="live-chat">Live Chat</a>
+    </div>
+</footer>
+
+
+    <!-- Rest of your website content goes here -->
+</body>
+</html>

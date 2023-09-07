@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deaf Charity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="logo">
+            <img src="logo.png" alt="Deaf Charity Logo">
+        </div>
+        <nav>
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Programs <span class="dropdown-arrow">▼</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Healthcare</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Location: New York</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="notification">
+            <a href="#"><img src="notification-icon.png" alt="Notification Icon"></a>
+        </div>
+        <div class="user-actions">
+            <a href="#">Login</a>
+            <a href="#">Logout</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="language-switcher">
+            <select>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </header>
+    <section class="image-slider">
+        <div class="slider">
+            <img src="slider-image1.jpg" alt="Slider Image 1">
+            <img src="slider-image2.jpg" alt="Slider Image 2">
+            <img src="slider-image3.jpg" alt="Slider Image 3">
+        </div>
+        <div class="slider-controls">
+            <button class="prev-button">Previous</button>
+            <button class="next-button">Next</button>
+        </div>
+    </section>
+
+    <section class="quiz">
+        <h2>Current News Quiz</h2>
+        <p>What is the capital of France?</p>
+        <form>
+            <label>
+                <input type="checkbox" name="answer" value="paris"> Paris
+            </label>
+            <label>
+                <input type="checkbox" name="answer" value="london"> London
+            </label>
+            <label>
+                <input type="checkbox" name="answer" value="berlin"> Berlin
+            </label>
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="video-trending">
+        <h2>Video Trending</h2>
+        <video controls>
+            <source src="video.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section class="forms">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section class="auto-scrolling-trending">
+        <h2>Trending Images</h2>
+        <div class="trending-images">
+            <!-- Add your trending images here -->
+        </div>
+    </section>
+    <article class="article">
+        <img src="article-image.jpg" alt="Article Image">
+        <h1 class="main-heading">Article Title</h1>
+        <p class="subheading">Published on September 6, 2023</p>
+
+        <p class="article-text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus vehicula, odio eu condimentum
+            rhoncus, ligula nunc viverra massa, non tempor turpis arcu eu velit. In vulputate nisl eget arcu
+            efficitur, sit amet hendrerit neque venenatis. Integer vitae justo eget metus facilisis pharetra. Sed
+            malesuada, erat ac ultricies iaculis, justo odio dapibus ex, nec elementum metus velit non arcu. Nulla
+            facilisi. Vestibulum vehicula mi eget ultrices. Fusce tempor, quam vel tristique vehicula, dui metus
+            pharetra sapien, eget luctus felis ante at tortor.
+
+            <blockquote class="quote">
+                <p>"Accessibility is not just about compliance; it's about making the web a better place for everyone."</p>
+                <cite>— John Doe, Accessibility Advocate</cite>
+            </blockquote>
+
+            Sed bibendum suscipit sapien, eget tincidunt arcu fermentum nec. Proin ultricies nulla et turpis
+            egestas, id auctor odio congue. Nulla tristique dui vel risus aliquam, ac auctor mi ultricies. Phasellus
+            nec arcu eget elit facilisis laoreet. Quisque commodo tincidunt libero, vel cursus nunc. Integer congue
+            justo a arcu ullamcorper, eget laoreet risus sodales. Donec eu sem eu turpis lacinia fringilla. Fusce
+            tempor est a metus vulputate, eu rhoncus risus pharetra. Vivamus malesuada ac libero nec euismod.
+        </p>
+    </article>
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-section">
+                <p>&copy; 2023 Deaf Charity</p>
+            </div>
+            <div class="footer-section">
+                <button class="subscribe-button">Subscribe to Email Updates</button>
+                <input type="email" placeholder="Your Email Address" class="email-input">
+            </div>
+            <div class="footer-section">
+                <div class="social-icons">
+                    <a href="#"><img src="facebook-icon.png" alt="Facebook"></a>
+                    <a href="#"><img src="twitter-icon.png" alt="Twitter"></a>
+                    <a href="#"><img src="instagram-icon.png" alt="Instagram"></a>
+                </div>
+            </div>
+            <div class="footer-section">
+                <ul class="quick-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Programs</a></li>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <button class="back-to-top-button">Back to Top</button>
+            </div>
+            <div class="footer-section">
+                <!-- Live Chat or Customer Support Widget -->
+            </div>
+        </div>
+    </footer>
+    <!-- Rest of your website content goes here -->
+</body>
+</html>

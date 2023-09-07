@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Glaucoma Charity</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="header">
+        <div class="logo">
+            <img src="logo.png" alt="Glaucoma Charity Logo">
+        </div>
+        <nav class="nav">
+            <ul>
+                <li>
+                    <a href="#">Home</a>
+                </li>
+                <li class="dropdown">
+                    <a href="#">Services &#9662;</a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Support Groups</a></li>
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Research</a></li>
+                    </ul>
+                </li>
+                <li>
+                    <a href="#">Donate</a>
+                </li>
+            </ul>
+        </nav>
+        <div class="location">
+            <span>Your Location: New York</span>
+        </div>
+        <div class="notification">
+            <a href="#">
+                <img src="notification-icon.png" alt="Notification Icon">
+            </a>
+        </div>
+        <div class="user">
+            <button id="loginBtn">Login</button>
+            <button id="logoutBtn" style="display: none;">Logout</button>
+        </div>
+        <div class="search">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="language-switcher">
+            <select>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+            </select>
+        </div>
+    </header>
+    <main class="content">
+        <section class="slider">
+            <!-- Fit-to-page slider with clickable arrow controls -->
+            <div class="slider-container">
+                <img src="slide1.jpg" alt="Slider Image 1" class="slider-item">
+                <img src="slide2.jpg" alt="Slider Image 2" class="slider-item">
+                <img src="slide3.jpg" alt="Slider Image 3" class="slider-item">
+            </div>
+            <button class="slider-arrow prev">&#10094;</button>
+            <button class="slider-arrow next">&#10095;</button>
+        </section>
+
+        <section class="quiz">
+            <!-- Customized Quiz application -->
+            <h2>Current News Quiz</h2>
+            <p>Question: What is the main topic of today's news?</p>
+            <form>
+                <label>
+                    <input type="checkbox"> Option 1
+                </label>
+                <label>
+                    <input type="checkbox"> Option 2
+                </label>
+                <label>
+                    <input type="checkbox"> Option 3
+                </label>
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="video-trending">
+            <!-- Video trending section with touch-friendly playback controls -->
+            <h2>Video Trending</h2>
+            <div class="video-container">
+                <video controls>
+                    <source src="video1.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <video controls>
+                    <source src="video2.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+                <!-- Add more video elements as needed -->
+            </div>
+        </section>
+
+        <section class="forms">
+            <!-- Mobile-responsive forms -->
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
+
+        <section class="image-trending">
+            <!-- Auto-scrolling image trending section -->
+            <h2>Image Trending</h2>
+            <div class="image-container">
+                <img src="image1.jpg" alt="Trending Image 1">
+                <img src="image2.jpg" alt="Trending Image 2">
+                <img src="image3.jpg" alt="Trending Image 3">
+                <!-- Add more image elements as needed -->
+            </div>
+        </section>
+    </main>
+    <main class="content">
+        <article class="article">
+            <h1 class="main-heading">Article Title</h1>
+            <img src="article-image.jpg" alt="Article Image" class="article-image">
+            
+            <section class="subheading">
+                <h2>Section 1</h2>
+                <p>Subtitle for Section 1</p>
+            </section>
+            
+            <p class="body-text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum nec mi at lorem tristique luctus vel non felis. 
+                Quisque tristique euismod tellus. Donec posuere ullamcorper erat, vel eleifend elit bibendum in. Duis id sapien in nunc
+                rutrum euismod in vel tortor. Nullam tristique arcu nec mi lobortis, sed euismod justo ultrices.
+            </p>
+            
+            <section class="subheading">
+                <h2>Section 2</h2>
+                <p>Subtitle for Section 2</p>
+            </section>
+            
+            <p class="body-text">
+                Nullam nec quam eu justo semper dignissim vel vel purus. Vivamus non est non justo lacinia ultrices. 
+                Vestibulum vel arcu nec metus interdum cursus. Fusce eget leo eget dolor luctus lacinia. 
+                Curabitur venenatis turpis ut tristique gravida. Suspendisse potenti. 
+            </p>
+            
+            <blockquote class="quote">
+                <p>"Glaucoma affects millions of people worldwide, but with early diagnosis and proper care, it can be managed effectively."</p>
+                <cite>Dr. John Smith</cite>
+            </blockquote>
+        </article>
+    </main>
+</main>
+
+<footer class="footer">
+    <!-- Footer section -->
+    <div class="footer-content">
+        <div class="footer-left">
+            <p>&copy; 2023 Glaucoma Charity</p>
+            <button class="subscribe-button">Subscribe to Updates</button>
+            <input type="email" class="email-input" placeholder="Enter your email">
+        </div>
+        <div class="footer-center">
+            <!-- Social media icons -->
+            <a href="#" class="social-icon"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#" class="social-icon"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#" class="social-icon"><img src="instagram-icon.png" alt="Instagram"></a>
+        </div>
+        <div class="footer-right">
+            <!-- Quick links -->
+            <ul class="quick-links">
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Services</a></li>
+                <li><a href="#">Donate</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+            <!-- Back to Top button -->
+            <button class="back-to-top">Back to Top</button>
+            <!-- Live chat or customer support widget -->
+            <div class="live-chat-widget">
+                <!-- Insert your live chat widget code here -->
+            </div>
+        </div>
+    </div>
+</footer>
+    <!-- Content of your website goes here -->
+</body>
+</html>

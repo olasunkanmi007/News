@@ -1,0 +1,314 @@
+/* Reset some default styles */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+.header {
+    background-color: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+/* Style the logo */
+.logo img {
+    max-height: 40px;
+}
+
+/* Style the navigation menu */
+.nav ul {
+    list-style-type: none;
+}
+
+.nav li {
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Style the dropdown menu */
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #333;
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-menu {
+    display: block;
+}
+
+/* Style the location */
+.location {
+    margin-right: 20px;
+}
+
+/* Style the notification icon */
+.notification img {
+    height: 24px;
+    width: 24px;
+}
+
+/* Style the user buttons */
+.user button {
+    background-color: #555;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+/* Style the search bar */
+.search input {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+}
+
+/* Style the language switcher */
+.language-switcher select {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    background-color: #555;
+    color: #fff;
+}
+/* Styles for the content area */
+.content {
+    padding: 20px;
+}
+
+/* Styles for the slider */
+.slider {
+    position: relative;
+}
+
+.slider-container {
+    display: flex;
+    overflow: hidden;
+}
+
+.slider-item {
+    flex-shrink: 0;
+    width: 100%;
+}
+
+.slider-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: none;
+    border: none;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.prev {
+    left: 10px;
+}
+
+.next {
+    right: 10px;
+}
+
+/* Styles for the quiz */
+.quiz {
+    margin-top: 20px;
+}
+
+form {
+    margin-top: 10px;
+}
+
+/* Styles for the video trending section */
+.video-trending {
+    margin-top: 20px;
+}
+
+.video-container {
+    display: flex;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.video-container video {
+    scroll-snap-align: start;
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+/* Styles for the forms */
+.forms {
+    margin-top: 20px;
+}
+
+label, input, textarea, button {
+    display: block;
+    margin: 10px 0;
+    width: 100%;
+}
+
+/* Styles for the image trending section */
+.image-trending {
+    margin-top: 20px;
+}
+
+.image-container {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+}
+
+.image-container img {
+    scroll-snap-align: start;
+    width: 300px;
+    height: 200px;
+    margin-right: 10px;
+}
+
+/* Styles for the article */
+.article {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.article-image {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+/* Styles for headings */
+.main-heading {
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.subheading h2 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+.subheading p {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Styles for body text */
+.body-text {
+    font-size: 18px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+/* Styles for the quote block */
+.quote {
+    background-color: #f0f0f0;
+    border-left: 4px solid #333;
+    margin: 20px 0;
+    padding: 10px 20px;
+}
+
+.quote p {
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 10px;
+}
+
+.quote cite {
+    font-size: 18px;
+    font-weight: bold;
+}
+/* Styles for the footer section */
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Styles for the copyright text */
+.footer-left p {
+    font-size: 14px;
+    margin: 0;
+}
+
+/* Styles for the subscribe button and email input */
+.subscribe-button {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+
+.email-input {
+    padding: 10px;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+
+/* Styles for social media icons */
+.social-icon {
+    margin-right: 10px;
+}
+
+.social-icon img {
+    width: 24px;
+    height: 24px;
+}
+
+/* Styles for quick links */
+.quick-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.quick-links li {
+    margin-bottom: 5px;
+}
+
+.quick-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles for Back to Top button */
+.back-to-top {
+    background-color: #f9f9f9;
+    color: #333;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+/* Styles for live chat or customer support widget */
+.live-chat-widget {
+    /* Style your live chat widget here */
+}

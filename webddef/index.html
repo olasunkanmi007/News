@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Charity Website for Deaf</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header class="sticky-header">
+        <div class="logo">
+            <img src="logo.png" alt="Charity Logo">
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li class="dropdown">
+                    <a href="#">Programs <span class="dropdown-arrow">&#9662;</span></a>
+                    <ul class="dropdown-menu">
+                        <li><a href="#">Education</a></li>
+                        <li><a href="#">Healthcare</a></li>
+                        <!-- Add more program options as needed -->
+                    </ul>
+                </li>
+                <li><a href="#">Location: <span id="user-location">City</span></a></li>
+                <li><a href="#"><span class="notification-icon">🔔</span></a></li>
+            </ul>
+        </nav>
+        <div class="user-actions">
+            <button id="login-button">Login</button>
+            <button id="logout-button">Logout</button>
+        </div>
+        <div class="search-bar">
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="language-switcher">
+            <select>
+                <option value="en">English</option>
+                <option value="es">Español</option>
+                <option value="fr">Français</option>
+                <!-- Add more language options as needed -->
+            </select>
+        </div>
+    </header>
+    <!-- ... (Header code from previous response) ... -->
+
+<main>
+    <!-- Slider -->
+    <div class="slider-container">
+        <button class="slider-control prev">&#9664;</button>
+        <div class="slider">
+            <!-- Slide 1 -->
+            <div class="slide">
+                <img src="slide1.jpg" alt="Slide 1">
+            </div>
+            <!-- Slide 2 -->
+            <div class="slide">
+                <img src="slide2.jpg" alt="Slide 2">
+            </div>
+            <!-- Add more slides as needed -->
+        </div>
+        <button class="slider-control next">&#9654;</button>
+    </div>
+
+    <!-- Quiz -->
+    <div class="quiz-container">
+        <h2>Current News Quiz</h2>
+        <p>What is the capital of France?</p>
+        <form>
+            <label>
+                <input type="checkbox" name="answer" value="paris"> Paris
+            </label>
+            <label>
+                <input type="checkbox" name="answer" value="london"> London
+            </label>
+            <label>
+                <input type="checkbox" name="answer" value="berlin"> Berlin
+            </label>
+            <!-- Add more quiz questions as needed -->
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Video Trending Section -->
+    <div class="video-section">
+        <h2>Video Trending</h2>
+        <div class="video">
+            <video controls>
+                <source src="video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+        </div>
+        <!-- Add more video content as needed -->
+    </div>
+
+    <!-- Mobile-Responsive Forms -->
+    <div class="forms-container">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </div>
+
+    <!-- Auto-scrolling Image Trending Section -->
+    <div class="image-trending">
+        <h2>Image Trending</h2>
+        <div class="image-slider">
+            <!-- Image 1 -->
+            <div class="image-slide">
+                <img src="image1.jpg" alt="Image 1">
+            </div>
+            <!-- Image 2 -->
+            <div class="image-slide">
+                <img src="image2.jpg" alt="Image 2">
+            </div>
+            <!-- Add more images as needed -->
+        </div>
+    </div>
+</main>
+<section class="article">
+    <article>
+        <header>
+            <h1>Main Heading of the Article</h1>
+            <img src="article-image.jpg" alt="Article Image">
+        </header>
+        <section>
+            <h2>Subheading 1</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla consectetur massa eget dapibus. Sed ut lectus nec nunc efficitur sollicitudin. Integer vel est vitae velit posuere vehicula.</p>
+        </section>
+        <section>
+            <h2>Subheading 2</h2>
+            <p>Quisque ullamcorper tortor ut mauris iaculis, sit amet sodales justo ultricies. Vestibulum bibendum arcu at velit condimentum, non ullamcorper ligula rhoncus.</p>
+        </section>
+        <blockquote>
+            <p>"A well-crafted quote can add depth to your content." - John Doe</p>
+        </blockquote>
+        <section>
+            <h2>Subheading 3</h2>
+            <p>Phasellus in urna sed odio suscipit suscipit ac sed leo. Suspendisse vel velit vel ex fermentum vehicula. Fusce ac metus sem. Nullam et justo sed odio interdum euismod. In hac habitasse platea dictumst.</p>
+        </section>
+    </article>
+</section>
+<footer>
+    <div class="footer-top">
+        <div class="copyright">
+            &copy; 2023 Charity for the Deaf
+        </div>
+        <div class="subscribe">
+            <input type="email" placeholder="Enter your email">
+            <button>Subscribe</button>
+        </div>
+        <div class="social-icons">
+            <a href="#" class="social-icon">Facebook</a>
+            <a href="#" class="social-icon">Twitter</a>
+            <a href="#" class="social-icon">Instagram</a>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <div class="quick-links">
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Programs</a>
+            <a href="#">Contact</a>
+        </div>
+        <button class="back-to-top">Back to Top</button>
+        <div class="chat-widget">
+            <!-- Your live chat or customer support widget code goes here -->
+        </div>
+    </div>
+</footer>
+
+<!-- ... (Footer and additional scripts) ... -->
+
+
+    <!-- Rest of your website content goes here -->
+
+    <script src="script.js"></script>
+</body>
+</html>
